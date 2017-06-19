@@ -1,0 +1,26 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "command line app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aelgiadi/ticTacToe.git"
+  },
+  "author": "Ali Elgiadi",
+  "license": "ISC",
+  "homepage": "https://github.com/Aelgiadi/ticTacToe#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "figlet": "^1.2.0",
+    "node": "0.0.0",
+    "prompt": "^1.0.0",
+  },
+  "bin": {
+  "ticTacToe": "./index.js"
+  }
+}
